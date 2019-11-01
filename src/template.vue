@@ -6,16 +6,12 @@
 <style></style>
 
 <template>
-  <div>
-    <test msg="你好哦所所所所所" />
-  </div>
+  <div></div>
 </template>
 
 <script>
-import test from './test';
-
 export default {
-  name: 'view-home',
+  name: '',
   props: {},
   data() {
     return {
@@ -52,8 +48,6 @@ export default {
   },
   created() {},
   mounted() {},
-  components: {
-    test,
-  },
+  components: {},
 };
 </script>
