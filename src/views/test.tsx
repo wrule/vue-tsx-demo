@@ -7,21 +7,15 @@ interface ComProps {
   msg: string;
 }
 
-@Component({
-  props: {
-    msg: {
-      type: String,
-      required: true,
-    },
-  },
-})
+@Component
 export default class ViewTest extends TSX.Component<ComProps> {
+  @Prop({ type: String })
   private msg!: string;
   public render(): VNode {
     return (
       <div>
         <div>{this.msg}</div>
-        <ViewTest2 msg="1" />
+        <ViewTest2 msg='若不是你突然' />
       </div>
     );
   }

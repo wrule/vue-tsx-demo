@@ -6,15 +6,9 @@ interface ComProps {
   msg: string;
 }
 
-@Component({
-  props: {
-    msg: {
-      type: String,
-      required: true,
-    },
-  },
-})
-export default class ViewTest extends TSX.Component<ComProps> {
+@Component
+export default class ViewTest2 extends TSX.Component<ComProps> {
+  @Prop({ type: String })
   private msg!: string;
   public render(): VNode {
     return (

@@ -4,6 +4,9 @@ import './registerServiceWorker';
 import router from './router';
 import store from './store';
 
+// import 'vue-tsx-support/options/enable-nativeon';
+// import 'vue-tsx-support/options/enable-vue-router';
+
 Vue.config.productionTip = false;
 
 new Vue({
