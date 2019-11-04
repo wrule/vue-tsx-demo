@@ -7,7 +7,7 @@
 
 <template>
   <div>
-    <test msg="你好哦所所所所所" />
+    <test msg="你好，世界" />
   </div>
 </template>
 

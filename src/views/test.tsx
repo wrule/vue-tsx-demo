@@ -9,8 +9,10 @@ export default class ViewTest extends Vue {
     return (
       <div>
         <div>{this.msg}</div>
-        <ViewTest2 msg='dddddd' />
+        <ViewTest2 />
       </div>
     );
+  }
+  public mounted(): void {
   }
 }
